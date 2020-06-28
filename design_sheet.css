@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica,  Calibri;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 50px 10px 10px 0px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  border-width: 0;
+  background-color: gray;
+  padding: 3px;
+}
+
+.main_section {
+  background-image: url(background.jpg);
+  background-position: center;
+  color: white;
+  height: 600px;
+  padding: 20px;
+}
+
+.main_section header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 175px;
+  height: auto;
+  text-align: left;
+}
+
+#signin {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-family: Helvetica, Calibri;
+  font-size: 18px;
+  width: 90px;
+  height: 30px;
+  padding-top: 10px;
+  margin: 10px 30px 30px 0px;
+  text-align: center; 
+  text-decoration: none;
+
+}
+
+.main_container, .emailbox {
+  text-align: center;
+}
+
+.emailbox {
+  padding: 20px 0 10px 0;
+}
+
+#email {
+  font-family: Helvetica, Calibri;
+  font-size: 20px;
+  width: 493px;
+  height: auto;
+  padding: 12px 8px 10px 8px;
+}
+
+#get_started {
+  background-color: red;
+  color: white;
+  font-family: Helvetica, Calibri;
+  font-size: 24px;
+  padding: 12px 25px 12px 25px;
+  text-decoration: none;
+}
+
+.watch_tv_section, .download_offline_section,
+.watch_everywhere_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+}
+
+.watch_tv_section img, .download_offline_section img,
+.watch_everywhere_section img {
+  width: 480px;
+  height: auto;
+}
+
+.tv_desc {
+  padding: 50px 50px 0px 50px;
+}
+
+.tv_img {
+  padding-right: 75px;
+  padding-bottom: 50px;
+}
+
+.download_img {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.download_desc {
+  padding: 30px 50px 0px 50px;
+}
+
+.device_desc {
+  padding: 50px 50px 0px 50px;
+}
+
+.device_img {
+  padding-right: 75px;
+  padding-bottom: 50px;
+}
+
+.faq_section {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.faq_top {
+  text-align: center;
+}
+
+.faqs {
+  display: table;
+  margin: 0 auto;
+  padding: 30px 0px;
+  width: 700px;
+}
+
+.faqs h2 {
+  background-color: gray;
+  font-size: 25px;
+  margin: 10px;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+}
+
+.main_footer {
+  display: table;
+  font-family: Helvetica, Calibri;
+  margin: 0 auto;
+}
+
+.footer_top {
+  font-size: 16px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.footer_links ul {
+  display: grid;
+  font-size: 14px;
+  grid-row-gap: 10px;
+  grid-template-columns: 175px 175px 175px 175px;
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+#faq, #help_centre, #account, #media_centre, #investor_relations,
+#jobs, #ways_to_watch, #terms_of_use, #privacy, #cookie_preferences,
+#corporate_information, #contact_us, #speed_test, #legal_notices,
+#netflix_originals, #tel_link {
+  color: gray;
+  text-decoration: none;
+}
+
+#faq:hover, #help_centre:hover, #account:hover, #media_centre:hover,
+#investor_relations:hover, #jobs:hover, #ways_to_watch:hover,
+#terms_of_use:hover, #privacy:hover, #cookie_preferences:hover,
+#corporate_information:hover, #contact_us:hover, #speed_test:hover,
+#legal_notices:hover, #netflix_originals:hover, #tel_link:hover {
+  text-decoration: underline;
+}
